@@ -1,0 +1,25 @@
+{
+  "name": "@getedgestack/edgedb",
+  "type": "module",
+  "source": "src/index.js",
+  "exports": {
+    "require": "./dist/index.cjs",
+    "default": "./dist/index.modern.js"
+  },
+  "version": "1.0.4",
+  "description": "Client Library for EdgeDB",
+  "repository": "github:getedgestack/edgedb",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.module.js",
+  "unpkg": "./dist/foo.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "EdgeStack",
+  "license": "ISC",
+  "devDependencies": {
+    "microbundle": "^0.15.0"
+  }
+}
