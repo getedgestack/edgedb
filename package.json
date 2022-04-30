@@ -6,7 +6,7 @@
     "require": "./dist/index.cjs",
     "default": "./dist/index.modern.js"
   },
-  "version": "1.0.5",
+  "version": "1.0.8",
   "description": "Client Library for EdgeDB",
   "repository": "github:getedgestack/edgedb",
   "main": "./dist/index.cjs",
@@ -21,5 +21,8 @@
   "license": "ISC",
   "devDependencies": {
     "microbundle": "^0.15.0"
+  },
+  "dependencies": {
+    "semver": "^7.3.7"
   }
 }
