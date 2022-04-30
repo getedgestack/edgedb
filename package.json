@@ -6,7 +6,7 @@
     "require": "./dist/index.cjs",
     "default": "./dist/index.modern.js"
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Client Library for EdgeDB",
   "repository": "github:getedgestack/edgedb",
   "main": "./dist/index.cjs",
