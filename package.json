@@ -6,14 +6,14 @@
     "require": "./dist/index.cjs",
     "default": "./dist/index.modern.js"
   },
-  "version": "1.0.8",
+  "version": "1.0.12",
   "description": "Client Library for EdgeDB",
   "repository": "github:getedgestack/edgedb",
   "main": "./dist/index.cjs",
   "module": "./dist/index.module.js",
   "unpkg": "./dist/foo.umd.js",
   "scripts": {
-    "build": "microbundle",
+    "build": "microbundle && npm publish",
     "dev": "microbundle watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,6 +23,6 @@
     "microbundle": "^0.15.0"
   },
   "dependencies": {
-    "semver": "^7.3.7"
+    "node-fetch": "^3.2.4"
   }
 }
